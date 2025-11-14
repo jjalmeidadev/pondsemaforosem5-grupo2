@@ -65,8 +65,8 @@ O ESP32 mestre disponibiliza uma página acessível no navegador (IP - http://19
 #include <PubSubClient.h>
 
 // Wi-Fi
-const char* ssid = "Jaiminho23";
-const char* password = "00000009";
+const char* ssid = "Inteli.Iot";
+const char* password = "%(Yk(sxGMtvFEs.3";
 
 // MQTT
 const char* mqttServer = "e5cf094371aa436eb006414574faf775.s1.eu.hivemq.cloud";
@@ -229,8 +229,8 @@ void loop() {
 #include <PubSubClient.h>
 
 // Wi-Fi
-const char* ssid = "Jaiminho23";
-const char* password = "00000009";
+const char* ssid = "Inteli.Iot";
+const char* password = "%(Yk(sxGMtvFEs.3";
 
 // MQTT
 const char* mqttServer = "e5cf094371aa436eb006414574faf775.s1.eu.hivemq.cloud";
