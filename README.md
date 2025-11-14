@@ -6,13 +6,13 @@ Um deles funciona como semáforo mestre, sendo responsável por decidir o estado
 Os dispositivos se comunicam via MQTT, usam Wi-Fi, possuem modo noturno automático através de LDR e permitem controle manual através de uma página web hospedada pelo próprio mestre.
 
 ## Integrantes
-Isaac Santos
-Jaime Almeida
-Guilherme Valenca
-Victor Grycajuk
-Richard Alves
-Bruno Martins
-Victor Santos
+- Isaac Santos
+- Jaime Almeida
+- Guilherme Valenca
+- Victor Grycajuk
+- Richard Alves
+- Bruno Martins
+- Victor Santos
 
 ## Componentes utilizados
 
