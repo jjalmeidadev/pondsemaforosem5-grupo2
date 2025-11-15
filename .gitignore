@@ -1,0 +1,28 @@
+# Arduino IDE
+*.hex
+*.eep
+*.elf
+*.map
+
+# Visual Studio Code
+.vscode/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Build files
+build/
+*.o
+*.a
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Credentials
+# src/**/credentials.h
