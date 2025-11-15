@@ -35,7 +35,7 @@ Este projeto simula um sistema de semáforos inteligentes para Smart Cities, uti
 
 ## Documentação
 
-A documentação completa do projeto está disponível em [`docs/`](./docs/).
+A documentação completa do projeto está disponível em [`docs/documentacao.md`](./docs/documentacao.md).
 
 ## Licença
 
