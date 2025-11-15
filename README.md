@@ -1,5 +1,15 @@
 # Semáforo Inteligente - Smart City
 
+<center>
+
+![INTELI](https://img.shields.io/badge/Inteli-231C30?style=for-the-badge&label=Modulo%204&labelColor=FFFFFF)
+<br>
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+</center>
+
 Sistema de semáforos inteligentes usando ESP32 com comunicação MQTT, controle automático via sensor LDR e interface web.
 
 ## Sobre o Projeto
