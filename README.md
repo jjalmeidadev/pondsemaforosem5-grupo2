@@ -23,6 +23,7 @@ Este projeto simula um sistema de semáforos inteligentes para Smart Cities, uti
 - Interface web para controle manual
 - Sincronização de estados entre semáforos
 - Modo noturno com amarelo piscante
+- Controle não-bloqueante com reconexão automática WiFi/MQTT
 
 ## Tecnologias
 
@@ -31,6 +32,22 @@ Este projeto simula um sistema de semáforos inteligentes para Smart Cities, uti
 - MQTT (WiFi + TLS)
 - Sensor LDR
 - LEDs RGB
+
+## Estrutura do Repositório
+
+```
+semaforo-inteligente/
+├── src/                          # Código-fonte dos projetos
+│   ├── esp32-mestre/            # Firmware do semáforo mestre
+│   └── esp32-secundario/        # Firmware do semáforo secundário
+├── docs/                         # Documentação técnica
+│   ├── documentacao.md          # Documentação completa do sistema
+│   └── instalacao.md            # Guia de instalação e configuração
+├── assets/                       # Imagens e recursos visuais
+├── .gitignore                    # Arquivos ignorados pelo Git
+├── LICENSE                       # Licença MIT
+└── README.md                     # Este arquivo
+```
 
 ## Equipe
 
@@ -42,12 +59,11 @@ Este projeto simula um sistema de semáforos inteligentes para Smart Cities, uti
 - Victor Grycajuk
 - Victor Santos
 
-
 ## Documentação
 
 A documentação completa do projeto está disponível em [`docs/documentacao.md`](./docs/documentacao.md).
 
-O guia de instação e configuração encontra-se em [`docs/instalacao.md`](./docs/instalacao.md). 
+O guia de instalação e configuração encontra-se em [`docs/instalacao.md`](./docs/instalacao.md). 
 
 ## Licença
 
