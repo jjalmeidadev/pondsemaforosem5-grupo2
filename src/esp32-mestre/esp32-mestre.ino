@@ -7,8 +7,8 @@
 #include "SemaforoMestre.h"
 
 // Objetos de rede
-WiFiClientSecure secureClient;
-PubSubClient client(secureClient);
+WiFiClient wifiClient;  
+PubSubClient client(wifiClient);
 WebServer server(WEB_SERVER_PORT);
 
 // Instância do semáforo

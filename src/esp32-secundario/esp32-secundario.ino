@@ -6,8 +6,8 @@
 #include "SemaforoSecundario.h"
 
 // Objetos de rede
-WiFiClientSecure secureClient;
-PubSubClient client(secureClient);
+WiFiClient wifiClient;  
+PubSubClient client(wifiClient);
 
 // Instância do semáforo
 SemaforoSecundario semaforo(PIN_LED_VERDE, PIN_LED_AMARELO, PIN_LED_VERMELHO);
